@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Minhas Tarefas</h1>
+
+        <!-- Onde a pessoa digita e adiciona a tarefa -->
+        <div class="input-area">
+            <input type="text" id="nova-tarefa" placeholder="Digite uma nova tarefa...">
+            <button id="btn-adicionar">Adicionar</button>
+        </div>
+
+        <!-- O texto que vai sumir/aparecer via JavaScript -->
+        <p id="mensagem-vazia">Nenhuma tarefa cadastrada no momento.</p>
+
+        <!-- A lista de verdade, que começa vazia -->
+        <ul id="lista-tarefas"></ul>
+    </div>
+
+    <!-- Puxando o script do integrante 3 no final -->
+    <script src="js/app.js"></script>
+</body>
+</html>
